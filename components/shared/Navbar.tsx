@@ -5,7 +5,7 @@ import React from "react";
 const NavbarComponent = () => {
   return (
     <>
-      <nav className="absolute top-0 left-0 w-full z-10 bg-transparent text-[#200039] p-4 h-[64px]">
+      <nav className="absolute top-0 left-0 w-full z-[1000] bg-transparent text-[#200039] p-4 h-[64px]">
         <div className="flex items-center justify-between px-4 xl:px-32">
           <div className="">
             <Link href="/" passHref>
@@ -57,7 +57,7 @@ const NavbarComponent = () => {
           <div>
             <Link
               href="/demo"
-              className="inline-flex bottom-2 border border-purple-500 lowercase items-center px-4 py-2 bg-purple-100 text-[#200039] font-medium text-lg rounded-[200px] hover:bg-purple-200"
+              className="cursor-pointer inline-flex bottom-2 border border-purple-500 lowercase items-center px-4 py-2 bg-purple-100 text-[#200039] font-medium text-lg rounded-[200px] hover:bg-purple-200"
             >
               Request Demo
               <Image

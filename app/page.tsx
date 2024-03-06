@@ -1,9 +1,16 @@
-import React from 'react'
+import Company from "@/components/Home/Company";
+import HeroSection from "@/components/Home/HeroSection";
+import React from "react";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <>
+      <div className="bg-[#efe1f6]">
+        <HeroSection />
+        <Company />
+      </div>
+    </>
+  );
+};
 
-export default page
+export default page;
