@@ -1,6 +1,7 @@
 import BrandsTestimonials from "@/components/Home/BrandsTestimonials";
 import Company from "@/components/Home/Company";
 import HeroSection from "@/components/Home/HeroSection";
+import Teams from "@/components/Home/Teams";
 import Testimonials from "@/components/Home/Testimonials";
 import React from "react";
 
@@ -12,6 +13,7 @@ const page = () => {
         <Company />
         <Testimonials />
         <BrandsTestimonials />
+        <Teams />
       </div>
     </>
   );

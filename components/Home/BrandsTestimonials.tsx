@@ -43,7 +43,7 @@ const BrandsTestimonials = () => {
       <div className="lg:px-32 slider-container overflow-hidden">
         <Slider {...settings}>
           <ThreeDCard
-            imageUrl="/assets/images/mila11.jpg"
+            imageUrl="/assets/images/mila.svg"
             title=""
             bodyText="The XCJ: Effective Subscriptions for Hypergrowth"
           />
