@@ -1,3 +1,4 @@
+import BrandsTestimonials from "@/components/Home/BrandsTestimonials";
 import Company from "@/components/Home/Company";
 import HeroSection from "@/components/Home/HeroSection";
 import Testimonials from "@/components/Home/Testimonials";
@@ -10,6 +11,7 @@ const page = () => {
         <HeroSection />
         <Company />
         <Testimonials />
+        <BrandsTestimonials />
       </div>
     </>
   );
