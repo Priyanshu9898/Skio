@@ -66,13 +66,13 @@ const HeroSection = () => {
           <h1 className="text-4xl lg:text-6xl lowercase font-bold">
             Sell subscriptions without ripping your hair out
           </h1>
-          <p>
+          <p className="mt-4 text-xl">
             <span className="text-yellow-500">★★★★★</span> 5.0 (172 reviews)
           </p>
           <p className="text-[20px] font-normal">
             Skio is trusted by brands like Liquid I.V., Bulletproof, Milk Bar, Barstool Sports, Unilever, Vega, KOS, KITSCH, True Botanicals, Wild One, GHOST, Raw Nutrition, RYSE Supplements, about-face, & KraveBeauty.
           </p>
-          <div className="mt-6">
+          <div className="mt-4">
             <Link
               href="/demo"
               className="cursor-pointer inline-flex bottom-2 border border-purple-500 lowercase items-center px-4 py-2 bg-purple-100 text-[#200039] font-medium text-lg rounded-[200px] hover:bg-purple-200"
