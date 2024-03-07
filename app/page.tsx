@@ -4,6 +4,7 @@ import HeroSection from "@/components/Home/HeroSection";
 import SellCard from "@/components/Home/SellCard";
 import Teams from "@/components/Home/Teams";
 import Testimonials from "@/components/Home/Testimonials";
+import Footer from "@/components/shared/Footer";
 import React from "react";
 
 const page = () => {
@@ -16,9 +17,9 @@ const page = () => {
         <BrandsTestimonials />
         <Teams />
         <div className="w-full flex items-center justify-center pb-20">
-
-        <SellCard />
+          <SellCard />
         </div>
+        {/* <Footer /> */}
       </div>
     </>
   );

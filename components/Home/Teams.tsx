@@ -7,39 +7,39 @@ import Slider from "react-slick";
 
 export const users = [
   {
-    name: "Manu Arora",
-    designation: "Founder, Algochurn",
-    image: "https://picsum.photos/id/10/300/300",
+    name: "Kennan Davison",
+    designation: "Founder, CEO",
+    image: "/assets/images/team1.jpg",
+    badge: "Founder",
+  },
+  {
+    name: "Aidan Thibodeaux",
+    designation: "COO",
+    image: "/assets/images/team2.jpeg",
+    badge: "COO",
+  },
+  {
+    name: "Andrew Chen",
+    designation: "Founding Engineer, Engineering Lead",
+    image: "/assets/images/team3.jpeg",
+    badge: "Lead",
+  },
+  {
+    name: "Arvin Rezvanpour",
+    designation: "Founding Engineer",
+    image: "/assets/images/team4.jpeg",
+    badge: "Lead",
+  },
+  {
+    name: "Nathan Wong",
+    designation: "Founding Engineer",
+    image: "/assets/images/team5.jpg",
     badge: "Mentor",
   },
   {
-    name: "Sarah Singh",
-    designation: "Founder, Sarah's Kitchen",
-    image: "https://picsum.photos/id/11/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "John Doe",
-    designation: "Software Engineer, Tech Corp",
-    image: "https://picsum.photos/id/12/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Jane Smith",
-    designation: "Product Manager, Innovate Inc",
-    image: "https://picsum.photos/id/13/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Robert Johnson",
-    designation: "Data Scientist, DataWorks",
-    image: "https://picsum.photos/id/14/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Emily Davis",
-    designation: "UX Designer, DesignHub",
-    image: "https://picsum.photos/id/15/300/300",
+    name: "Matt Davison",
+    designation: "Founding Engineer",
+    image: "/assets/images/team6.jpeg",
     badge: "Mentor",
   },
   {
