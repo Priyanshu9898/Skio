@@ -42,7 +42,7 @@ export const ContainerScroll = ({
 
   return (
     <div
-      className="h-[60rem] md:h-[80rem] flex items-center justify-center relative p-2 md:p-20"
+      className="h-[60rem] md:h-[80rem] flex items-center justify-center relative p-2 md:p-20 lg:mt-[-200px]"
       ref={containerRef}
     >
       <div
@@ -92,8 +92,6 @@ export const Card = ({
     badge?: string;
   }[];
 }) => {
-  
-
   return (
     <motion.div
       style={{

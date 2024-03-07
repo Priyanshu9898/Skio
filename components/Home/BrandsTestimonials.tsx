@@ -18,7 +18,7 @@ const BrandsTestimonials = () => {
     pauseOnHover: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1224,
         settings: {
           slidesToShow: 2,
         },
